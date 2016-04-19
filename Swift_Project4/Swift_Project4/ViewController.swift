@@ -70,7 +70,6 @@ class ViewController: UIViewController {
                                    tipValue: String(format: "%.2f", originalPrice * Double(slider.value)),
                                    totalValue: String(format: "%.2f", originalPrice * (1 + Double(slider.value))));
         tipCalculatorView.tipModel = newTipModel
-        
     }
     
     
